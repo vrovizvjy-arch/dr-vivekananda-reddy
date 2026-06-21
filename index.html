@@ -133,11 +133,13 @@ nav .container{display:flex;align-items:center;justify-content:space-between;hei
 .expertise-card:nth-child(2)::before{background:linear-gradient(90deg,var(--teal),var(--teal-light))}
 .expertise-card:nth-child(3)::before{background:linear-gradient(90deg,var(--amber),var(--amber-light))}
 .expertise-card:nth-child(4)::before{background:linear-gradient(90deg,#7c4dff,#b388ff)}
+.expertise-card:nth-child(5)::before{background:linear-gradient(90deg,#00bcd4,#4dd0e1)}
 .expertise-card-icon{width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.2rem;margin-bottom:20px}
 .expertise-card:nth-child(1) .expertise-card-icon{background:linear-gradient(135deg,#dbeafe,#eff6ff);color:var(--blue);border:1px solid rgba(0,102,184,0.1)}
 .expertise-card:nth-child(2) .expertise-card-icon{background:linear-gradient(135deg,var(--teal-pale),var(--blue-soft));color:var(--teal);border:1px solid rgba(0,137,123,0.12)}
 .expertise-card:nth-child(3) .expertise-card-icon{background:linear-gradient(135deg,var(--amber-pale),var(--blue-soft));color:var(--amber);border:1px solid rgba(249,168,37,0.12)}
 .expertise-card:nth-child(4) .expertise-card-icon{background:linear-gradient(135deg,#ede7f6,#f5f0ff);color:#7c4dff;border:1px solid rgba(124,77,255,0.12)}
+.expertise-card:nth-child(5) .expertise-card-icon{background:linear-gradient(135deg,#e0f7fa,#e0f2f1);color:#0097a7;border:1px solid rgba(0,151,167,0.12)}
 .expertise-card h4{font-size:1.05rem;font-weight:700;margin-bottom:8px;color:var(--text)}
 .expertise-card p{font-size:0.85rem;color:var(--text-soft);line-height:1.6;flex:1}
 .expertise-card .card-num{font-family:var(--font-display);font-size:2.8rem;font-weight:900;opacity:0.05;line-height:1;margin-top:16px;align-self:flex-end;color:var(--text)}
@@ -376,18 +378,18 @@ Dr. <span>Vivekananda</span>
 
 <div class="container">
 <div class="reveal">
-<div class="hero-badge"><i class="fas fa-star"></i> 93% Patient Satisfaction</div>
+<div class="hero-badge"><i class="fas fa-star"></i> 10,000+ Surgeries Performed</div>
 <p class="hero-title">MS (Ortho), FIJR</p>
 <h1>Dr. C <span>Vivekananda</span> Reddy</h1>
 <p class="hero-hospital"><i class="fas fa-hospital"></i> Apollo Specialty Hospitals, Nellore</p>
 <button class="voice-btn" id="voiceBtn" aria-label="Voice search"><i class="fas fa-microphone"></i> <span>Search conditions by voice</span></button>
 <div class="hero-tags">
-<span class="hero-tag">Joint Replacement</span><span class="hero-tag">Arthroscopy</span><span class="hero-tag">Sports Medicine</span><span class="hero-tag">Spine Surgery</span>
+<span class="hero-tag">Joint Replacement</span><span class="hero-tag">Robotic TKR</span><span class="hero-tag">Arthroscopy</span><span class="hero-tag">Sports Medicine</span><span class="hero-tag">Spine Surgery</span>
 </div>
 <div class="hero-stats">
-<div class="hero-stat"><div class="hero-stat-number" data-target="12">0</div><div class="hero-stat-label">Years</div></div>
-<div class="hero-stat"><div class="hero-stat-number" data-target="175">0</div><div class="hero-stat-label">Patients</div></div>
-<div class="hero-stat"><div class="hero-stat-number" data-target="46">0</div><div class="hero-stat-label">Rating</div></div>
+<div class="hero-stat"><div class="hero-stat-number" data-target="16">0</div><div class="hero-stat-label">Years Expertise</div></div>
+<div class="hero-stat"><div class="hero-stat-number" data-target="10000">0</div><div class="hero-stat-label">Surgeries</div></div>
+<div class="hero-stat"><div class="hero-stat-number" data-target="500">0</div><div class="hero-stat-label">Robotic TKRs</div></div>
 </div>
 <div class="hero-buttons">
 <a href="tel:08062972812" class="btn btn-primary"><i class="fas fa-phone-alt"></i> Call Now</a>
@@ -410,12 +412,14 @@ Dr. <span>Vivekananda</span>
 <div class="expertise-header">
 <span class="section-label">Expertise</span>
 <h2 class="section-title">Orthopaedic Specialist</h2>
-<p class="section-subtitle mx-auto">Over a decade of precision orthopaedic care — combining advanced surgical techniques with a patient-first philosophy for optimal outcomes.</p>
+<p class="section-subtitle mx-auto">Over 16 years of precision orthopaedic care — combining advanced surgical techniques with a patient-first philosophy for optimal outcomes.</p>
 <div class="expertise-stats reveal">
-<span class="expertise-stat"><strong>12+</strong> Years Experience</span>
-<span class="expertise-stat"><strong>5000+</strong> Surgeries</span>
-<span class="expertise-stat"><strong>99%</strong> Success Rate</span>
-<span class="expertise-stat"><strong>46+</strong> Research Papers</span>
+<span class="expertise-stat"><strong>16+</strong> Years Expertise</span>
+<span class="expertise-stat"><strong>10,000+</strong> Surgeries</span>
+<span class="expertise-stat"><strong>5,000+</strong> TKR &amp; THR</span>
+<span class="expertise-stat"><strong>2,000+</strong> Arthroscopy</span>
+<span class="expertise-stat"><strong>500+</strong> Robotic TKRs</span>
+<span class="expertise-stat"><strong>3Y</strong> Robotic Expertise</span>
 </div>
 </div>
 <div class="expertise-cards">
@@ -423,6 +427,7 @@ Dr. <span>Vivekananda</span>
 <div class="expertise-card reveal reveal-delay-2"><div class="expertise-card-icon"><i class="fas fa-microscope"></i></div><h4>Minimally Invasive Arthroscopy</h4><p>Diagnostic and therapeutic arthroscopy for shoulder, knee and hip joints using small incisions for faster healing.</p><div class="card-num">02</div></div>
 <div class="expertise-card reveal reveal-delay-3"><div class="expertise-card-icon"><i class="fas fa-running"></i></div><h4>Sports Medicine & Trauma</h4><p>Complete management of sports-related injuries, ligament reconstruction, fracture care, and post-operative rehabilitation.</p><div class="card-num">03</div></div>
 <div class="expertise-card reveal reveal-delay-4"><div class="expertise-card-icon"><i class="fas fa-spine"></i></div><h4>Spine Surgery</h4><p>Minimally invasive spine stabilization, disc surgery, and comprehensive treatment for chronic back and neck pain.</p><div class="card-num">04</div></div>
+<div class="expertise-card reveal reveal-delay-4"><div class="expertise-card-icon"><i class="fas fa-robot"></i></div><h4>Robotic Joint Replacement</h4><p>Precision robotic-assisted TKR and THR using advanced navigation systems for optimal implant alignment and faster recovery.</p><div class="card-num">05</div></div>
 </div>
 </div>
 </section>
